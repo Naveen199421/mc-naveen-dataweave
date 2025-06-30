@@ -202,7 +202,20 @@
 		},
 		{
 			"name": "mc-experience-eapi",
-			"item": [],
+			"item": [
+				{
+					"name": "New Request",
+					"id": "44757848-0795f9f8-3039-4eb8-ac3a-581f7e6ac878",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			],
 			"id": "44757848-9fc55cbd-1e43-4e20-bc07-ff901e6a0cdc"
 		}
 	]
