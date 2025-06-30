@@ -204,7 +204,7 @@
 			"name": "mc-experience-eapi",
 			"item": [
 				{
-					"name": "report",
+					"name": "reports",
 					"id": "44757848-0795f9f8-3039-4eb8-ac3a-581f7e6ac878",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
@@ -216,7 +216,7 @@
 					"response": []
 				},
 				{
-					"name": "report/download/id",
+					"name": "reports/download/id",
 					"id": "44757848-4f2eec53-d517-4863-9d31-286146f469cf",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
