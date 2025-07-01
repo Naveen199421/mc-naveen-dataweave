@@ -198,7 +198,7 @@
 					"response": []
 				},
 				{
-					"name": "New Request",
+					"name": "Reports",
 					"id": "44757848-58616fc2-a51d-4fb1-aa8e-c900bbdc9aa1",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
