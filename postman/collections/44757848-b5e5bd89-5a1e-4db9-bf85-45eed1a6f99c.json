@@ -1,0 +1,433 @@
+{
+	"info": {
+		"_postman_id": "44757848-b5e5bd89-5a1e-4db9-bf85-45eed1a6f99c",
+		"name": "mc-weekly-sales-report-sapi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "mc-salesforce-sapi",
+			"item": [
+				{
+					"name": "Opportunities Records",
+					"id": "44757848-b7775a38-a31c-4b06-bdeb-f42d97c43ea1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "Naveen",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "June@1994",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mc-salesforce-sapi-k7x5a7.5sc6y6-4.usa-e2.cloudhub.io/api/opportunities",
+							"protocol": "https",
+							"host": [
+								"mc-salesforce-sapi-k7x5a7",
+								"5sc6y6-4",
+								"usa-e2",
+								"cloudhub",
+								"io"
+							],
+							"path": [
+								"api",
+								"opportunities"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Accounts Records",
+					"id": "44757848-3ef0c4a3-8d5e-4b5c-bc1b-c79ef1d6f561",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "Naveen",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "June@1994",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mc-salesforce-sapi-k7x5a7.5sc6y6-4.usa-e2.cloudhub.io/api/accounts",
+							"protocol": "https",
+							"host": [
+								"mc-salesforce-sapi-k7x5a7",
+								"5sc6y6-4",
+								"usa-e2",
+								"cloudhub",
+								"io"
+							],
+							"path": [
+								"api",
+								"accounts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Product2 Records",
+					"id": "44757848-5882ecb0-d7ff-47fb-bd27-4dc76eb0be4f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "Naveen",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "June@1994",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mc-salesforce-sapi-k7x5a7.5sc6y6-4.usa-e2.cloudhub.io/api/product2",
+							"protocol": "https",
+							"host": [
+								"mc-salesforce-sapi-k7x5a7",
+								"5sc6y6-4",
+								"usa-e2",
+								"cloudhub",
+								"io"
+							],
+							"path": [
+								"api",
+								"product2"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "44757848-22f9ff92-d9a5-4af1-b60d-c193e75764db"
+		},
+		{
+			"name": "mc-snowflake-sapi",
+			"item": [
+				{
+					"name": "Product_sales",
+					"id": "44757848-559e6123-9857-4bf7-9841-4db8f394d19f",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "Naveen",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "June@1994",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mc-snowflake-sapi-k7x5a7.5sc6y6-4.usa-e2.cloudhub.io/api/product_sales",
+							"protocol": "https",
+							"host": [
+								"mc-snowflake-sapi-k7x5a7",
+								"5sc6y6-4",
+								"usa-e2",
+								"cloudhub",
+								"io"
+							],
+							"path": [
+								"api",
+								"product_sales"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "44757848-0a263348-dca2-4512-ac02-f566c071c3c8"
+		},
+		{
+			"name": "mc-supabase-sapi",
+			"item": [
+				{
+					"name": "Reports",
+					"id": "44757848-51a76d1a-b104-4492-9dab-653a15b16ce0",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "Naveen",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "June@1994",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"fc78ac8c-05a5-4e34-909c-e373b0c6acb5\",\r\n    \"filename\": \"sales_report_20250529.csv\",\r\n    \"record_count\": 35\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://mc-supabase-sapi-k7x5a7.5sc6y6-4.usa-e2.cloudhub.io/api/reports",
+							"protocol": "https",
+							"host": [
+								"mc-supabase-sapi-k7x5a7",
+								"5sc6y6-4",
+								"usa-e2",
+								"cloudhub",
+								"io"
+							],
+							"path": [
+								"api",
+								"reports"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Report",
+					"id": "44757848-fb810c12-1670-498e-a223-e62b5f8e7739",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "Naveen",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "June@1994",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://mc-supabase-sapi-k7x5a7.5sc6y6-4.usa-e2.cloudhub.io/api/report-archives?id=9697caf5-29be-4b99-b97a-0d41ead3065c",
+							"protocol": "https",
+							"host": [
+								"mc-supabase-sapi-k7x5a7",
+								"5sc6y6-4",
+								"usa-e2",
+								"cloudhub",
+								"io"
+							],
+							"path": [
+								"api",
+								"report-archives"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "9697caf5-29be-4b99-b97a-0d41ead3065c"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Reports",
+					"id": "44757848-58616fc2-a51d-4fb1-aa8e-c900bbdc9aa1",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "Naveen",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "June@1994",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mc-supabase-sapi-k7x5a7.5sc6y6-4.usa-e2.cloudhub.io/api/reports",
+							"protocol": "https",
+							"host": [
+								"mc-supabase-sapi-k7x5a7",
+								"5sc6y6-4",
+								"usa-e2",
+								"cloudhub",
+								"io"
+							],
+							"path": [
+								"api",
+								"reports"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "44757848-936615e7-8f56-4d23-bf62-814f92dacc6b"
+		},
+		{
+			"name": "mc-experience-eapi",
+			"item": [
+				{
+					"name": "reports",
+					"id": "44757848-0795f9f8-3039-4eb8-ac3a-581f7e6ac878",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "Naveen",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "June@1994",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mc-experience-eapi-k7x5a7.5sc6y6-4.usa-e2.cloudhub.io/api/reports",
+							"protocol": "https",
+							"host": [
+								"mc-experience-eapi-k7x5a7",
+								"5sc6y6-4",
+								"usa-e2",
+								"cloudhub",
+								"io"
+							],
+							"path": [
+								"api",
+								"reports"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "reports/download/id",
+					"id": "44757848-4f2eec53-d517-4863-9d31-286146f469cf",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "username",
+									"value": "Naveen",
+									"type": "string"
+								},
+								{
+									"key": "password",
+									"value": "June@1994",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://mc-experience-eapi-k7x5a7.5sc6y6-4.usa-e2.cloudhub.io/api/reports/download?id=fc78ac8c-05a5-4e34-909c-e373b0c6acb5",
+							"protocol": "https",
+							"host": [
+								"mc-experience-eapi-k7x5a7",
+								"5sc6y6-4",
+								"usa-e2",
+								"cloudhub",
+								"io"
+							],
+							"path": [
+								"api",
+								"reports",
+								"download"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "fc78ac8c-05a5-4e34-909c-e373b0c6acb5"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "44757848-9fc55cbd-1e43-4e20-bc07-ff901e6a0cdc"
+		}
+	]
+}

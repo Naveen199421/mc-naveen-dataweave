@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "44757848-cebca326-dcee-44cb-9db7-fe2cf9ddf0e9",
+		"name": "demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Error Handling",
+			"id": "44757848-8505fb60-c552-46b6-a637-24b78c14771b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/testflow",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"testflow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Posting data to queue",
+			"id": "44757848-31211def-7534-4694-856b-eb999f7c117a",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"OrderId\": \"ORD-2005\",\r\n    \"Orderstatus\": \"Pending\",\r\n    \"updated_at\": \"2025-08-07T07:30:00.000Z\",\r\n    \"created_at\": \"2025-08-07T06:00:00.000Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8082/flow",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"flow"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Getting data from queue and posting to SB",
+			"id": "44757848-dddecb86-e3fb-4df0-992c-9f6813bc3d2d",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/retrivedata",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"retrivedata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Getting data from queue and updating record to SB",
+			"id": "44757848-31414e2c-fa4b-4888-baf3-1aca30a5821c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8083/retrivedata",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8083",
+					"path": [
+						"retrivedata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrive data from salesforce",
+			"id": "44757848-5917e013-ab1e-4d9a-9603-eebaacef3301",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
