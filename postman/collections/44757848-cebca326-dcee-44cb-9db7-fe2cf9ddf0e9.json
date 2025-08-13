@@ -6,7 +6,7 @@
 	},
 	"item": [
 		{
-			"name": "Retrive data from salesforce",
+			"name": "Error Handling",
 			"id": "44757848-8505fb60-c552-46b6-a637-24b78c14771b",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
@@ -103,6 +103,18 @@
 						"retrivedata"
 					]
 				}
+			},
+			"response": []
+		},
+		{
+			"name": "Retrive data from salesforce",
+			"id": "44757848-5917e013-ab1e-4d9a-9603-eebaacef3301",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": []
 			},
 			"response": []
 		}
